@@ -1,4 +1,4 @@
-# El-Jurgo-Coder
+# Franco_Comignaghi_TPFinal_2
 
 
 El juego tiene unos cuantos errores como que el texto para correr queda durante toda la escena. 
