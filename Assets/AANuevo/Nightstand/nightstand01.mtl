@@ -1,0 +1,50 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 21.06.2022 22:13:36
+
+newmtl M_Nightstand_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Nightstand_01_Diff.png
+	map_Kd T_Nightstand_01_Diff.png
+	map_bump T_Nightstand_01_Norm.png
+	bump T_Nightstand_01_Norm.png
+
+newmtl M_Nightstand_01_Metal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Nightstand_01_Metal_Diff.png
+	map_Kd T_Nightstand_01_Metal_Diff.png
+	map_bump T_Nightstand_01_Metal_Norm.png
+	bump T_Nightstand_01_Metal_Norm.png
+
+newmtl M_Interior_Lamp_A
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_interior_Lamp_A_Diff.png
+	map_Kd T_interior_Lamp_A_Diff.png
+	map_bump T_interior_Lamp_A_Norm.png
+	bump T_interior_Lamp_A_Norm.png

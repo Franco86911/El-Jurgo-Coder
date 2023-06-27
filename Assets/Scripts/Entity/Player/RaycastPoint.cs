@@ -12,8 +12,11 @@ public class RaycastPoint : MonoBehaviour
     [SerializeField] private LayerMask m_raycastLayers;
     private bool doorStade = false;
     [SerializeField] private string sceneName;
-    private bool m_key;
-    
+    private bool m_key, c_key,time_1,time_2;
+    private bool time_3 = true;
+    [SerializeField] private FlashHud m_flash;
+    [SerializeField] private GetingKey m_text,d_text,g_text;
+
 
 
     void Update()
@@ -31,7 +34,11 @@ public class RaycastPoint : MonoBehaviour
         if (l_isHitting)
         {
             if (hit.collider.TryGetComponent(out Items c_item))
-            {           
+            {     
+                if(c_item.type == "FlashLight")
+                {
+                    m_flash.FlashTutorial();
+                }
                 GameManager.Instance.AddItem(c_item);
                 c_item.Collected();
             }
@@ -63,6 +70,28 @@ public class RaycastPoint : MonoBehaviour
             {
                 m_key = true;
             }
+
+            if (hit.collider.TryGetComponent(out PassKey c_get))
+            {
+                
+                if (time_3)
+                {
+                    m_text.ShowText();
+                    time_3 = false;
+                    time_2 = true;
+                }else if (time_2)
+                {
+                    d_text.ShowText();
+                    time_2 = false;
+                    time_1 = true;
+                }else if (time_1)
+                {
+                    g_text.ShowText();
+                    time_1 = false;
+                }
+            
+            
+        }
 
             if (m_key)
             {

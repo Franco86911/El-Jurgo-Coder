@@ -1,32 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class FlashHud : MonoBehaviour
 {
-    [SerializeField] private float i_time = 1;
-    private float c_time;
     [SerializeField] private float i_time2 = 4;
     private float c_time2;
-    [SerializeField] private GameObject text;
+    [SerializeField] private TMP_Text m_text;
+    private bool m_bool;
 
     void Start()
     {
-        c_time = i_time;
         c_time2 = i_time2;
     }
 
-
-    private void FlashTutorial()
+    public void FlashTutorial()
     {
-        c_time -= Time.deltaTime;
-        if (c_time < 0)
+        m_text.text = "Presiona F para encender la linterna";
+        m_bool = true;
+        
+    }
+
+    void Update()
+    {
+        if (m_bool)
         {
-            text.SetActive(true);
             c_time2 -= Time.deltaTime;
             if (c_time2 < 0)
             {
-                text.SetActive(false);
+                Destroy(gameObject);
             }
         }
     }

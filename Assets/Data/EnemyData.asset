@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01551b4ed9637214e88b49d4ec6aef39, type: 3}
   m_Name: EnemyData
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   r_speed: 5
   p_detected: {fileID: 0}
   e_nearLimit: 2
-  e_distanceToChase: 20
+  e_distanceToChase: 40

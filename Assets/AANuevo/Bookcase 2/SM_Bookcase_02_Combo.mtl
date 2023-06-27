@@ -1,0 +1,50 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 26.06.2022 23:08:55
+
+newmtl M_Books_A
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Books_A_Diff.png
+	map_Kd T_Books_A_Diff.png
+	map_bump T_Books_A_Norm.png
+	bump T_Books_A_Norm.png
+
+newmtl M_Bookcase_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Bookcase_02_Diff.png
+	map_Kd T_Bookcase_02_Diff.png
+	map_bump T_Bookcase_02_Norm.png
+	bump T_Bookcase_02_Norm.png
+
+newmtl M_Books_B
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_BookOpen_A_Diff.png
+	map_Kd T_BookOpen_A_Diff.png
+	map_bump T_BookOpen_A_Norm.png
+	bump T_BookOpen_A_Norm.png

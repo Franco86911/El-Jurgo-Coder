@@ -1,0 +1,50 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 18.06.2022 23:10:37
+
+newmtl M_Bed_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Bed_01_A_Diff.png
+	map_Kd T_Bed_01_A_Diff.png
+	map_bump T_Bed_01_A_Norm.png
+	bump T_Bed_01_A_Norm.png
+
+newmtl M_Bed_01_Fabric_Blue_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Bed_01_Fabric_Blue_01_Diff.png
+	map_Kd T_Bed_01_Fabric_Blue_01_Diff.png
+	map_bump T_Bed_01_Fabric_Blue_01_Norm.png
+	bump T_Bed_01_Fabric_Blue_01_Norm.png
+
+newmtl M_Bed_01_Fabric_Blue_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka T_Bed_01_Fabric_Blue_02_Diff.png
+	map_Kd T_Bed_01_Fabric_Blue_02_Diff.png
+	map_bump T_Bed_01_Fabric_Blue_02_Norm.png
+	bump T_Bed_01_Fabric_Blue_02_Norm.png
